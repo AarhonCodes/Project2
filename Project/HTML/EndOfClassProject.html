@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font Family Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- JS, and Css stylesheet and script -->
+    <link rel="stylesheet" type="text/css" href="../CSS/EOCP.css" />
+    <script type="text/javascript" src="../JS/EndOfClassProject.js"></script>
+
+    <title>TechGlobal</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <div id="WelcomeBox">
+            <h1 id="Welcome">Best Processors in 2021!</h1>
+        </div>
+
+        <ul id="NavBar">
+            <li class="Item" id="active"><a class="active" href="EndOfClassProject.html">Home</a></li>
+            <li class="Item"><a href="Proccesorlist.html">Processors</a></li>
+            <li class="Item"><a href="SignIn.html">Sign In</a></li>
+            <form id="SubmitForm">
+                <li class="Item2"><input type="text" id="Input" placeholder="Search"></li>
+                <li class="Item2"><button id="Enter" type="submit" onclick="Check()">Submit</button></li>
+            </form>
+        </ul>
+    </nav>
+    <!-- Wbsite box, in all pages to make sure navbar has no margin and fits the whole screen.-->
+    <div id="WebsiteBox">
+
+        <!-- Hero Section -->
+        <div id="HeroSection">
+            <!--Audio Div-->
+            <div id="AudioRight">
+                <h1 id="AudioHeader">Listen To Our Podcasts!</h1>
+                <h6 class="HeaderStyle">Will the M1X be the fastest computer chipset?</h6>
+            </div>
+            <!--Audio Sources-->
+            <div>
+                <audio controls class="Audio">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mp4">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mpeg">
+                </audio>
+            </div>
+            <div>
+                <audio controls class="Audio">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mp4">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mpeg">
+                </audio>
+            </div>
+            <div>
+                <audio controls class="Audio">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mp4">
+                    <source src="../Audio/M1XPodcast.m4a" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <!--Welcome Text in the home page-->
+
+        <h1 id="Large">Welcome...</h1>
+        <p class="BeginningText">This website delves into the topic of processors,</p>
+        <p class="BeginningText">and it suggests and informs you about the best</p>
+        <p class="BeginningText">processors, for you. This website only includes</p>
+        <p class="BeginningText">processors developed for, and only laptps. So Phone</p>
+        <p class="BeginningText"> and ARM architecture chips will not be mentioned.</p>
+        <p class="BeginningText2">This website delves into the topic of processors,</p>
+        <p class="BeginningText2">and it suggests and informs you about the best</p>
+        <p class="BeginningText2">processors, for you. This website only includes</p>
+        <p class="BeginningText2">processors developed for, and only laptps. So Phone</p>
+        <p class="BeginningText2"> and ARM architecture chips will not be mentioned.</p>
+
+        <!-- Comparison HTML -->
+        <div id="ColorBG">
+            <!-- Card -->
+            <div class="card">
+                <img id="Processor" src="../Images/LaptopVector.png" alt="Image of a macbook pro, made by Apple Inc.">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+                <div class="container">
+                    <!--Best affordable Chipset, card-->
+                    <h1><b>Best affordable Chipset:</b></h1>
+
+                    <p><b>Overview:</b></p>
+
+                    <p>Here are some of the most affordable chipsets to look into!
+
+                        This post, will be about the most affordable proccesors wich give you the most bang for your
+                        buck. </p>
+                    <p> This will includearm chipsets as well, but not smartphone chipset like apple silicon
+                        unless it's m1. And al...
+                    </p>
+                    <button id="CheckOut">Check Out</button>
+                </div>
+            </div>
+
+            <!-- Graph to compare between intel and amd chipsets-->
+            <div id="Graph">
+                <div id="GraphContent">
+                    <h1 id="Headers"><span style="color:#51d6ff ;">AMD</span> vs Intel CPU Speed:</h1>
+                    <div>
+                        <label>Ryzen Epyc 4470H9:</label>
+                        <progress max="900" value="1000" id="Bar1" class="Ryzen"></progress>
+                        <div class="Bar_And_Text">
+                            <label>Intel Core I9 119000K:</label>
+                            <progress max="1000" value="840" id="Bar1" class="intel"></progress>
+                            <div class="Bar_And_Text">
+                                <label>Ryzen 7 5700U: </label>
+                                <progress max="1000" value="720" id="Bar1" class="Ryzen"></progress>
+                                <div class="Bar_And_Text">
+                                    <label>Intel Core I7 10098K: </label>
+                                    <progress max="1000" value="690" id="Bar1" class="intel"></progress>
+                                    <div class="Bar_And_Text">
+                                        <label>Intel Core I5 34900L: </label>
+                                        <progress max="1000" value="560" id="Bar1" class="intel"></progress>
+                                        <div class="Bar_And_Text">
+                                            <label>Ryzen 5 97SX Radeon:</label>
+                                            <progress max="1000" value="378" id="Bar1" class="Ryzen"></progress>
+                                        </div>
+                                        <div>
+                                            <label>Ryzen Epyc 4398:</label>
+                                            <progress max="1000" value="789" id="Bar1" class="Ryzen"></progress>
+                                            <div class="Bar_And_Text">
+                                                <label>Intel Core I9 9800K:</label>
+                                                <progress max="1000" value="598" id="Bar1" class="intel"></progress>
+                                                <div class="Bar_And_Text">
+                                                    <label>Ryzen 7 3700U: </label>
+                                                    <progress max="1000" value="609" id="Bar1" class="Ryzen"></progress>
+                                                    <div class="Bar_And_Text">
+                                                        <label>Intel Core I7 4009K: </label>
+                                                        <progress max="1000" value="698" id="Bar1"
+                                                            class="intel"></progress>
+                                                        <div class="Bar_And_Text">
+                                                            <label>Intel Core I5 12600L: </label>
+                                                            <progress max="1000" value="234" id="Bar1"
+                                                                class="intel"></progress>
+                                                            <div class="Bar_And_Text">
+                                                                <label>Ryzen 5 85SX Radeon:</label>
+                                                                <progress max="1000" value="126" id="Bar1"
+                                                                    class="Ryzen"></progress>
+                                                            </div>
+                                                            <div>
+                                                                <label>Ryzen Epyc 4007H9:</label>
+                                                                <progress max="1000" value="988" id="Bar1"
+                                                                    class="Ryzen"></progress>
+                                                                <div class="Bar_And_Text">
+                                                                    <label>Intel Core I8 12980K:</label>
+                                                                    <progress max="1000" value="899" id="Bar1"
+                                                                        class="intel"></progress>
+                                                                    <div class="Bar_And_Text">
+                                                                        <label>Ryzen 7 2700U: </label>
+                                                                        <progress max="1000" value="290" id="Bar1"
+                                                                            class="Ryzen"></progress>
+                                                                        <div class="Bar_And_Text">
+                                                                            <label>Intel Core I7 8109K: </label>
+                                                                            <progress max="1000" value="701" id="Bar1"
+                                                                                class="intel"></progress>
+                                                                            <div class="Bar_And_Text">
+                                                                                <label>Intel Core I5 21900L: </label>
+                                                                                <progress max="1000" value="330"
+                                                                                    id="Bar1" class="intel"></progress>
+                                                                                <div class="Bar_And_Text">
+                                                                                    <label>Ryzen 5 67SX Radeon:</label>
+                                                                                    <progress max="1000" value="497"
+                                                                                        id="Bar1"
+                                                                                        class="Ryzen"></progress>
+                                                                                </div>
+                                                                            </div>
+                                                                            <h1 id="Up">Compare:</h1>
+                                                                            <div id="SideTabs">
+                                                                                <div class="tab">
+                                                                                    <button class="tablinks"
+                                                                                        onclick="openCity(event, 'London')">Cons</button>
+                                                                                    <button class="tablinks"
+                                                                                        onclick="openCity(event, 'Paris')"
+                                                                                        id="ButtonBorder">Pros</button>
+                                                                                </div>
+                                                                                <div id="London" class="tabcontent"
+                                                                                    id="defaultOpen">
+                                                                                    <div id="AMDPros"
+                                                                                        class="SplitPiece">
+                                                                                        <h1 class="Heading">Intel Cons:
+                                                                                        </h1>
+                                                                                        <ul class="PointsList">
+                                                                                            <li>Intel makes a great
+                                                                                                variety of fast and
+                                                                                                capable ships. For Every
+                                                                                                consumer.</li>
+                                                                                            <li>The ryzen Epyc is
+                                                                                                currently the worlds
+                                                                                                fastest chipset, and was
+                                                                                                developed by Intel.</li>
+                                                                                            <li>The ryzen 5 is the
+                                                                                                cheapest set of chipset,
+                                                                                                which is powerful,
+                                                                                                affordable and
+                                                                                                efficient.</li>
+                                                                                            <li>intel is already in a
+                                                                                                wide
+                                                                                                variety of laptops from,
+                                                                                                ultrabooks to gaming
+                                                                                                laptops.</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div id="AMDCons"
+                                                                                        class="SplitPiece2">
+                                                                                        <h1 class="Heading">AMD Cons:
+                                                                                        </h1>
+                                                                                        <ul class="PointsList">
+                                                                                            <li>AMD makes a great
+                                                                                                variety of fast and
+                                                                                                capable ships. For Every
+                                                                                                consumer.</li>
+                                                                                            <li>The ryzen Epyc is
+                                                                                                currently the worlds
+                                                                                                fastest chipset, and was
+                                                                                                developed by AMD.</li>
+                                                                                            <li>The ryzen 5 is the
+                                                                                                cheapest set of chipset,
+                                                                                                which is powerful,
+                                                                                                affordable and
+                                                                                                efficient.</li>
+                                                                                            <li>AMD is already in a wide
+                                                                                                variety of laptops from,
+                                                                                                ultrabooks to gaming
+                                                                                                laptops.</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div id="Paris" class="tabcontent">
+                                                                                    <div id="IntelPros"
+                                                                                        class="SplitPiece">
+                                                                                        <h1 class="Heading">Intel Pros:
+                                                                                        </h1>
+                                                                                        <ul class="PointsList">
+                                                                                            <li>Intel makes a great
+                                                                                                variety of fast and
+                                                                                                capable ships. For Every
+                                                                                                consumer.</li>
+                                                                                            <li>The ryzen Epyc is
+                                                                                                currently the worlds
+                                                                                                fastest chipset, and was
+                                                                                                developed by Intel.</li>
+                                                                                            <li>The ryzen 5 is the
+                                                                                                cheapest set of chipset,
+                                                                                                which is powerful,
+                                                                                                affordable and
+                                                                                                efficient.</li>
+                                                                                            <li>Intel is already in a
+                                                                                                wide variety of laptops
+                                                                                                from, ultrabooks to
+                                                                                                gaming laptops.</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div id="IntelCons"
+                                                                                        class="SplitPiece2">
+                                                                                        <h1 class="Heading">AMD Pros:
+                                                                                        </h1>
+                                                                                        <ul class="PointsList">
+                                                                                            <li>AMD makes a great
+                                                                                                variety of fast and
+                                                                                                capable ships. For Every
+                                                                                                consumer.</li>
+                                                                                            <li>The ryzen Epyc is
+                                                                                                currently the worlds
+                                                                                                fastest chipset, and was
+                                                                                                developed by AMD.</li>
+                                                                                            <li>The ryzen 5 is the
+                                                                                                cheapest set of chipset,
+                                                                                                which is powerful,
+                                                                                                affordable and
+                                                                                                efficient.</li>
+                                                                                            <li>AMD is already in a
+                                                                                                wide variety of laptops
+                                                                                                from, ultrabooks to
+                                                                                                gaming laptops.</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+                                                                            <!--Footer Text, and button to go to next page-->
+                                                                        </div>
+                                                                        <div id="Footer">
+                                                                            <a href="Proccesorlist.html" id="Next">Next
+                                                                                &raquo;</a>
+                                                                            <footer>
+                                                                                <div class="Footer">
+                                                                                    <div class="Social">
+                                                                                        <h1 id="Headings">TechGlobal
+                                                                                        </h1>
+                                                                                        <a href="https://www.facebook.com/"
+                                                                                            target="_blank" class="btn">
+                                                                                            <i
+                                                                                                class="fa fa-facebook fa-fw"></i>
+                                                                                        </a>
+                                                                                        <a href="https://twitter.com/?lang=en"
+                                                                                            class="btn">
+                                                                                            <i
+                                                                                                class="fa fa-twitter fa-fw"></i>
+                                                                                        </a>
+                                                                                        <a href="https://www.google.com/"
+                                                                                            class="btn">
+                                                                                            <i
+                                                                                                class="fa fa-google fa-fw">
+                                                                                            </i>
+                                                                                        </a>
+                                                                                    </div>
+
+                                                                                    <div Id="FooterIMG"></div>
+                                                                                </div>
+                                                                            </footer>
+                                                                        </div>
+
+
+</body>
+
+
+
+</html>

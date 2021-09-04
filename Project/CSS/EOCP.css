@@ -1,0 +1,764 @@
+/* NavBar Css */
+#NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 48px;
+    position: sticky;
+}
+
+nav{
+    position: relative;
+    bottom: 27px;
+    left: 2px;
+}
+
+#Text {
+   box-shadow: rgb(0, 0, 0) 10px 4px 4px 50px;
+   background-color: rgb(10, 10, 10);
+   transition: 0.3s;
+}
+
+
+
+
+
+/* Navbar Link Positioning */
+
+.Item {
+    float: left;
+}
+
+.Item2 {
+    float: right;
+    padding-right: 5px;
+    margin-top: 10.5px;
+}
+
+
+
+
+
+/* Search Input CSS */
+
+#Input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    background-color: rgb(30, 30, 30);
+}
+
+#Input:hover {
+    border: solid 1px rgb(255, 255, 255);
+    animation-name: Elongate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes Elongate {
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 150px;
+    }
+
+    100% {
+        width: 100px;
+    }
+
+
+}
+
+
+#SubmitForm{
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+
+
+
+/* NavBar button Css */
+
+
+#NavBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Item a:hover {
+    background-color: #111;
+}
+
+#Large{
+    position: relative;
+    font-size: 50px;
+    left: 10px;
+    bottom: 500px;
+}
+
+.BeginningText{
+    position: relative;
+    left:10px;
+    bottom: 500px;
+    margin: 0px;
+}
+
+.BeginningText2{
+    position: relative;
+    left:10px;
+    bottom: 475px;
+    margin: 0px;
+    
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Body CSS */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+
+
+
+/*Universal Font*/
+*{
+    font-family:  'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+/* Enter Button CSS */
+#Enter {
+    color: white;
+    background-color: #000000;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px;
+}
+
+#Enter:hover {
+    background-color: #72dafa;
+    color: black;
+    border: black 1px solid;
+}
+
+
+
+
+
+/* Box On top of Nav CSS */
+#Welcome {
+    color: white;
+    position: relative;
+    padding: 10px;
+    height: 50px;
+    font-size: xx-large;
+}
+
+#WelcomeBox {
+    height: 60px;
+    text-align: center;
+    position: relative;
+    background-image:linear-gradient(90deg, rgb(10, 10, 10), rgb(41, 41, 41) , rgb(10, 10, 10), rgb(41, 41, 41));
+}
+
+
+
+
+
+/* Div which whole website is inside (Except Footer) */
+#WebsiteBox {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+
+/* Image CSS */
+
+#img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.Comparison {
+    float: left;
+}
+
+
+.left {
+    float: left;
+}
+
+
+
+
+
+
+/*Advertisement Card CSS */
+
+.card {
+    box-shadow: rgb(0, 0, 0) 10px 4px 4px 50px;
+    background-color: #0a0a0a;
+
+    transition: 0.3s;
+    width: 92%;
+    padding: 10px;
+    border-radius: 40px 10px;
+    height: 18%;
+    float: middle;
+    margin-bottom: 75px;
+}
+
+.card:hover {
+    box-shadow:  10px 4px 10px 10px  #72dafa;
+    border: #72dafa 1px solid;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+/* Div Where Comparison is.*/
+
+#ColorBG {
+    background-color: rgb(0, 0, 0);
+    color: rgb(150, 150, 150);
+    padding: 20px;
+    width: 2000px;
+    margin: 0px;
+    position: relative;
+    right: 15px;
+    height: 1587px;
+    bottom: 400px;
+}
+
+
+
+/* Image Positioning */
+
+#Processor {
+    position: relative;
+    float: right;
+    right: 50px;
+    width: 325px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* Checkout Button CSS */
+#CheckOut {
+    border-radius: 5px;
+    box-shadow: none;
+    color: rgb(200,200,200);
+    border: white 1px solid;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+#CheckOut:hover {
+    background-color: #72dafa;
+    color: black;
+    border: black 1px solid;
+}
+
+
+
+
+
+/* Active Home Button (nav) CSS */
+
+#active {
+    background-color: #202020;
+    color: rgb(150, 150, 150);
+}
+
+#active:hover{
+    color: #72dafa;
+}
+
+
+
+
+
+/*Underlined text Class*/
+
+.underlined{
+    text-decoration: underline 2px #72dafa;
+}
+
+
+
+/* Next Button CSS */
+
+#Next{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0) ;
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    top:450px;
+    left: 1760px;
+
+}
+
+#Next:hover {
+    background-color: #72dafa;
+    color: black;
+    border: black 1px solid;
+}
+
+
+
+
+/* Hero Section */
+
+#HeroSection{
+    background-image:url(../Images/HeroSectionImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 15px;
+    width: 950px;
+    position: relative;
+    left: 500px;
+}
+
+#Content{
+    position: relative;
+    top: 700px;
+}
+
+
+/*Podcast Box CSS */
+
+#AudioRight{
+    border:none;
+    background-color: #0a0a0a;
+    box-shadow: rgb(0, 0, 0) 10px 4px 4px 50px;
+    transition: 0.3s;
+    border-radius: 40px 10px;
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left:930px;
+    padding: 10px;
+    color: white;
+}
+
+#AudioRight:hover{
+    box-shadow:  10px 4px 10px 10px  #72fa8f;
+    border: #72fa8f 1px solid;
+}
+
+/*Audio Tags CSS*/
+.Audio{
+    width: 360px;
+    position: relative;
+    left: 20px;
+    height: 35px;
+    bottom: 325px;
+    margin-bottom: 50px;
+    left: 962px;
+}
+
+.Audio::-webkit-media-controls-play-button{
+    background-color:rgb(0, 255, 0);
+    opacity:1;
+    height:35px ;
+    position: relative;
+    right: 10px;
+
+}
+
+.HeaderStyle{
+    font-size: smaller;
+    margin:none;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#AudioHeader{
+    font-size: x-large;
+    text-align: center;
+}
+
+
+/*Side Tab menu CSS*/
+   /*Style the tab*/
+
+   #SideTabs{
+       position: relative;
+       top: 100px;
+   }
+
+   .tab {
+    float: left;
+    border: 1px solid #202020;
+    background-color: #0e0e0e;
+    width: 90px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 50%;
+    font-size: 17px;
+    border-radius: 20px 0px 0px 0px;
+  }
+
+  #ButtonBorder {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 50%;
+    font-size: 17px;
+    border-radius: 0px 0px 0px 20px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #0c0c0c;
+  }
+
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #0b0b0b;
+  }
+
+  /* Style the tab content */
+
+  .tabcontent {
+    float: left;
+    width: 1760px;
+    height: 200px;
+    background-color: #101010;
+    display: flex;
+    position: relative;
+    bottom: 202px;
+    left: 90px;
+  }
+
+
+  .SplitPiece {
+    width: 50%;
+    height: 100%;
+    background-color: #202020;
+    padding-left: 10px;
+    padding-top: 3px;
+  }
+
+  .SplitPiece2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 880px;
+    bottom: 203px;
+    padding-left: 10px;
+    padding-top: 3px;
+    background-color: #1a1a1a;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  .SplitPiece2:hover {
+    background-color: #0c0c0c;
+  }
+
+  .SplitPiece:hover {
+    background-color: #101010;
+  }
+
+  .TextSizing {
+    width: 900px;
+  }
+
+  #Up{
+    position: relative;
+    top: 100px;
+}
+
+  .Heading {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .PointsList {
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+  }
+
+
+/*Footer*/
+
+#FooterText{
+    color: rgb(150, 150, 150);
+    position: relative;
+    margin: 10px;
+    right: 11px;
+    top: 150px;
+}
+
+
+
+
+/*Graph CSS*/
+
+#Graph{
+    width: 1825px;
+    height: 680px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    top: 425px;
+    right: 8px;
+    bottom: 300px;
+}
+
+#Bar1{
+    height: 20px;
+    width: 1600px;
+    border-color: none;
+    margin: 5px;
+}
+
+#GraphContent{
+    position: relative;
+    bottom:380px;
+}
+
+
+.Ryzen::-webkit-progress-bar {
+    background-color: rgb(1, 1, 1);
+}
+
+.Ryzen::-webkit-progress-value {
+    background-color: #51d6ff !important;
+}
+
+.Ryzen {
+    background-color: rgb(1, 1, 1);
+}
+
+
+/*intel Progress Bar CSS */
+.intel::-webkit-progress-bar {
+    background-color: rgb(1, 1, 1);
+}
+
+.intel::-webkit-progress-value {
+    background-color: #ffffff !important;
+}
+
+.intel {
+    background-color: rgb(1, 1, 1);
+}
+
+.Bar_And_Text{
+    height: 30px;
+    width: 1825px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+Progress{
+    float:right;
+}
+
+
+/*Footer CSS*/
+.Footer{
+    height: 100px;
+    width: 2005px;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+    right: 32px;
+    padding: 5px;
+    padding-bottom: 5px;
+    top: 500px;
+}
+
+/*FooterImg CSS */
+#FooterIMG{
+    height: 400px;
+    width: 2005px;
+    background-image:url(../Images/Abstract\ Image.png);
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    right: 32px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+
+.Social{
+    position: relative;
+    right: 60px;
+}
+
+/*Style The socials on left */
+
+.btn{
+    margin: 5px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+}
+
+#Headings{
+    position: relative;
+    left: 93px;
+}
+
+
+

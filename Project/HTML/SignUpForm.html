@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font Family Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- JS, and Css stylesheet and script -->
+    <link rel="stylesheet" type="text/css" href="../CSS/SignUpForm.css" />
+    <script type="text/javascript" src="../JS/SignUpForm.js"></script>
+
+    <title>TechGlobal</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <div id="WelcomeBox">
+            <h1 id="Welcome">Sign In</h1>
+        </div>
+
+        <ul id="NavBar">
+            <li class="Item"><a class="active" href="EndOfClassProject.html">Home</a></li>
+            <li class="Item"><a href="Proccesorlist.html">Processors</a></li>
+            <li class="Item" id="active"><a href="SignUpForm.html">Sign In</a></li>
+            <form id="SubmitForm">
+                <li class="Item2"><input type="text" id="Search" placeholder="Search"></li>
+                <li class="Item2"><button id="Enter" type="submit" onclick="Check()">Submit</button></li>
+            </form>
+    </nav>
+    </ul>
+    <div id="WebsiteBox">
+
+        <!-- Form -->
+        <div id="Form">
+            <form name="SignUpForm">
+                <h1 id="Header">Sign Up:</h1>
+                <!-- Basic Inputs -->
+                <div class="Spacing" type="container" id="Flex">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id="FirstName" class="Inputs4" placeholder="First Name" required>
+                    <input type="text" id="LastName" class="Inputs3" placeholder="Last Name" required>
+                </div>
+                <div class="Spacing">
+                    
+                </div>
+                <div class="formPart4" id="Flex">
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="email" id="Email" class="Inputs2" placeholder="Email" required>
+                </div>
+                <!-- Radio Buttons -->
+                <fieldset id="RadioButtons">
+                    <div class="Radios">
+                        <label id="GenderHeader">Gender<span style="color: #72dafa;">*</span></label>
+                        <input type="radio" class="Radio" id="Male" name="RadioButtons" class="formPart2"><label
+                            class="label">Male</label>
+                        <input type="radio" class="Radio" id="Female" name="RadioButtons" class="formPart2"><label
+                            class="label">Female</label>
+                        <input type="radio" class="Radio" id="Other" name="RadioButtons" class="formPart2"><label
+                            class="label">Other</label>
+                    </div>
+                    <!-- DropDown -->
+                </fieldset>
+                <div class="formPart5"  id="Flex" type="container">
+                    <i class="fa fa-flag icons" id="Icons"></i>
+                    <select id="DropDown" name="Nationality">
+                        <option class="option" value="">Select Nationality</option>
+                        <option class="option" value="1">American</option>
+                        <option class="option" value="2">Emirati</option>
+                        <option class="option" value="3">Japanease</option>
+                        <option class="option" value="4">Chinease</option>
+                        <option class="option" value="5">Nepalease</option>
+                        <option class="option" value="6">Nigerian</option>
+                        <option class="option" value="7">Indian</option>
+                        <option class="option" value="8">Other</option>
+                    </select>
+                </div>
+                <!-- Password and Confirm password -->
+                <div id="Flex" type="container"></div>
+                <i class="fa fa-key icons2"></i>
+                    <input type="password" id="Password" class="Inputs6" placeholder="Password" required>
+                    <input type="password" id="Confirm_Password" class="Inputs5" placeholder="Confirm Password" required>
+                </div>
+                <button class="formPart" id="Button" type="submit" onclick="Validate()">Submit</button>
+            </form>
+
+        </div>
+    </div>
